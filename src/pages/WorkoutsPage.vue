@@ -50,7 +50,7 @@
           <form @submit.prevent="addWorkout">
             <div class="modal-header">
               <h5 class="modal-title">Add Workout</h5>
-              <button type="button" class="btn-close" @click="hideAddModal"></button>
+              <button id="addWorkout" type="button" class="btn-close" @click="hideAddModal"></button>
             </div>
 
             <div class="modal-body">
