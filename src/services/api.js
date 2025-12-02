@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 const api = axios.create({
-baseURL: 'https://fitnessapp-api-ln8u.onrender.com'
+baseURL: import.meta.env.VITE_FITNESSAPP_API,
 })
 
 api.interceptors.request.use((config) => {
